@@ -30,7 +30,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 ## ⚙️ 2. Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
-- (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
+### (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
 - 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
@@ -42,8 +42,8 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 | ⏰ **Last_Updated** | Conversão para formato `DATE` |
 | 🎯 **Reach_Band** | Criação de faixas por volume de instalações |
 | 💸 **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
-- 
-- (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
+ 
+### (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
@@ -66,7 +66,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 
  💻 **Notebook ETL**
    - ![ETL](Notebook_google_colab.ipynb)
-   -  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
+   - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
 ---
 
 ### Exportação de Dados
