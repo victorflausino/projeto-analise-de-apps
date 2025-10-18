@@ -141,16 +141,16 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 /projeto-analise-de-apps
 
 - 💻 **Notebook ETL**
-![Anális de Mercado](Nootbook_google_colab/Untitled2.ipynb - Colab.pdf)
+![ETL](Sem título2.ipynb)
 
 - 🎯 **Dados Tratados**
-![Anális de Mercado]
-📄 [Ver Notebook (arquivo .ipynb)](1_notebook_etl/etl_google_colab.ipynb)
+![Basese tratadas]
+📄 (Bases_tratadas/apps_tratados.csv)
+📄 (Bases_tratadas/reviews_tratados.csv)
 
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
-
 
 
 
