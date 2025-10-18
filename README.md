@@ -140,25 +140,16 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 ## 📁 6. Estrutura do Projeto
 
 /projeto-analise-de-apps
-|
-|-- README.md
-|
-|-- /1_notebook_etl
-| |-- Untitled2.ipynb - Colab.pdf
-|
-|-- /2_dashboard
-| |-- Teste Grupo Q.pbix
-| |-- /screenshots
-| |-- tela_1_visao_geral.png
-| |-- tela_2_mercado.png
-| |-- tela_3_usuario.png
-|
-|-- /3_dados_tratados
-| |-- apps_tratados.csv
-| |-- reviews_tratados.csv
-|
-|-- /4_apresentacao_executiva
-|-- Apresentacao.pptx
+
+- 💻 **Notebook ETL**
+![Anális de Mercado](Untitled2.ipynb - Colab.pdf)
+
+- 🎯 **Dados Tratados**
+![Anális de Mercado](apps_tratados.csv)
+                    (reviews_tratados.csv.csv)
+- 📊 **Dashboard**
+![Anális de Mercado](Teste Grupo Q.pbix)
+
 
 
 ---
