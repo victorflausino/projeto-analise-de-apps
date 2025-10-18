@@ -67,7 +67,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Taxa de engajamento (reviews / installs)  
 
 📸 **Screenshot:**
-![Visão Geral](<img width="929" height="518" alt="pagina1" src="https://github.com/user-attachments/assets/c32ae698-b8c9-4892-a758-06ee4ac60300" />)
+![Visão Geral](pagina1.png)
 
 ---
 
