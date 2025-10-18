@@ -64,9 +64,9 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 **Principais análises:**
 - Evolução temporal das notas médias  
 - Correlação entre engajamento e popularidade  
-- Taxa de engajamento (reviews / installs)  
+- Taxa de engajamento (reviews / installs)
 
-📸 **Screenshot:**
+- 📸 **1°Página:**
 ![Visão Geral](pagina1.png)
 
 ---
@@ -81,3 +81,91 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Índice de Potencial de Crescimento  
 
 **Cálculo do Índice de Potencial:**
+
+- Índice = 0.4 * %Rating + 0.4 * %Installs + 0.2 * %Atualização
+
+
+**Principais insights:**
+- **Entertainment** lidera em potencial de crescimento.  
+- **Education** tem excelente aceitação, mas baixo engajamento — alta oportunidade.  
+- **Games** possui grande volume, porém saturação de mercado.  
+
+📸 **Screenshot:**
+![Mercado e Crescimento](2_dashboard/screenshots/tela_2_mercado.png)
+
+---
+
+### 🟨 Página 3 – Voz do Usuário
+**Objetivo:** compreender a percepção dos usuários e os sentimentos expressos nas avaliações.
+
+**KPIs:**
+- Engajamento Total (Reviews)  
+- % de Comentários Positivos, Negativos e Neutros  
+- Média de Polaridade  
+
+**Análises complementares:**
+- Nuvens de palavras para comentários positivos e negativos  
+- Correlação entre NPS e Potencial de Crescimento  
+- Tabela de Sentimentos por Categoria  
+
+- 📸 **2°Página:**
+![Anális de Mercado](pagina2.png))
+
+---
+
+## 💡 4. Decisões Analíticas Tomadas
+
+| Tema | Decisão | Justificativa |
+|------|----------|----------------|
+| Imputação de Rating | Substituir nulos pela média da categoria | Evita perda de dados e mantém coerência estatística. |
+| Normalização de Métricas | Escalar variáveis (0–1) | Permite comparação justa entre variáveis distintas. |
+| Filtro de Significância | Excluir apps com < 50 reviews | Reduz distorções causadas por amostras pequenas. |
+| Engajamento | Usar Reviews/Installs | Mede vitalidade e interesse do usuário. |
+| Corte temporal | Analisar até 2018 | Mantém coerência com o último ano da base. |
+
+---
+
+## 🧩 5. Conclusões e Recomendações
+
+- **Entertainment**: alta aceitação e crescimento consistente — manter investimentos.  
+- **Education**: alto rating e oportunidade de expansão via engajamento.  
+- **Games**: popularidade alta, mas indícios de saturação.  
+- **Social e Tools**: atualização frequente correlaciona com melhor percepção dos usuários.  
+
+🎯 **Conclusão executiva:**
+> Categorias que combinam **boa avaliação**, **alta atualização** e **engajamento crescente** representam as melhores oportunidades de investimento.
+
+---
+
+## 📁 6. Estrutura do Projeto
+
+/projeto-analise-de-apps
+|
+|-- README.md
+|
+|-- /1_notebook_etl
+| |-- Untitled2.ipynb - Colab.pdf
+|
+|-- /2_dashboard
+| |-- Teste Grupo Q.pbix
+| |-- /screenshots
+| |-- tela_1_visao_geral.png
+| |-- tela_2_mercado.png
+| |-- tela_3_usuario.png
+|
+|-- /3_dados_tratados
+| |-- apps_tratados.csv
+| |-- reviews_tratados.csv
+|
+|-- /4_apresentacao_executiva
+|-- Apresentacao.pptx
+
+
+---
+
+
+## 📬 Contato
+📧 *realidadeimpressionante@gmail.com*  
+🔗 [LinkedIn - Victor Flausino](https://www.linkedin.com/in/victor-flausino)  
+
+---
