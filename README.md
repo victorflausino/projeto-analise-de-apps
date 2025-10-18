@@ -1,6 +1,6 @@
 # 📊 Projeto de Análise de Aplicativos - Grupo Q
 
-**Autor:** Victor Flausino  
+**Candidato:** Victor Flausino  
 **Data:** Outubro/2025  
 
  🧰  Tecnologias Utilizadas
@@ -15,7 +15,7 @@
 
 Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018).
 
-Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL (Extração, Transformação e Carga) documentado no arquivo (Notebook_google_colab.ipynb). 
+Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL (Extração, Transformação e Carga) documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
 
 Ferramentas Utilizadas:
 
@@ -30,7 +30,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 ## ⚙️ 2. Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
-- ### (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
+- ### ![Base apps](googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
  
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
@@ -43,7 +43,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 | 🎯 **Reach_Band** | Criação de faixas por volume de instalações |
 | 💸 **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
  
-- ### (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
+- ### ![Base Reviews](googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
