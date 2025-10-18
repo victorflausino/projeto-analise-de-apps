@@ -90,8 +90,6 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - **Education** tem excelente aceitação, mas baixo engajamento — alta oportunidade.  
 - **Games** possui grande volume, porém saturação de mercado.  
 
-📸 **Screenshot:**
-![Mercado e Crescimento](2_dashboard/screenshots/tela_2_mercado.png)
 
 ---
 
@@ -109,7 +107,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Tabela de Sentimentos por Categoria  
 
 - 📸 **2°Página:**
-![Anális de Mercado](pagina2.png))
+![Análise de Mercado](pagina2.png))
 
 ---
 
@@ -149,6 +147,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
                     (reviews_tratados.csv.csv)
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
+🔗 [Link Dashboard]([[https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/)](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9))
 
 
 
@@ -156,7 +155,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 
 
 ## 📬 Contato
-📧 *realidadeimpressionante@gmail.com*  
-🔗 [LinkedIn - Victor Flausino](https://www.linkedin.com/in/victor-flausino)  
+📧 *victorflausino009@gmail.com*  
+🔗 [LinkedIn - Victor Flausino]([https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/))  
 
 ---
