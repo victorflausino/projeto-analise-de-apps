@@ -13,26 +13,52 @@
 
 ## 🧠 1. Contexto do Desafio
 
-Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018), com o objetivo de apoiar a diretoria de uma empresa de **aplicativos educacionais** a entender:
+Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018).
 
-- Quais categorias têm **maior potencial de crescimento**  
-- Como está a **percepção dos usuários**  
-- Quais fatores influenciam a **aceitação e o engajamento** dos apps  
+Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL (Extração, Transformação e Carga) documentado no arquivo (Notebook_google_colab.ipynb). 
 
-O trabalho incluiu todo o ciclo de dados: **extração, tratamento, modelagem e análise visual**, com aplicação de técnicas analíticas para gerar **insights de negócio**.
+Ferramentas Utilizadas:
+
+Google Colab (Python/Pandas): Para exploração inicial, limpeza e transformação dos dados.
+
+DuckDB: Para aplicar transformações SQL em Python.
+
+Power BI: Para a construção do dashboard interativo e visualização dos insights..
 
 ---
 
 ## ⚙️ 2. Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
-- `googleplaystore.csv` — dados dos aplicativos (instalações, preço, categoria, rating etc.)  
-- `googleplaystore_user_reviews.csv` — avaliações e sentimentos de usuários.  
+- (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
+- 
+| **Campo** | **Decisão Tomada** |
+|------------|--------------------|
+| 🏷️ **Category** | Padronização para Title Case |
+| 📈 **Rating_Imputed** | Imputação de valores nulos com média da categoria |
+| 🔢 **Reviews** | Conversão para tipo numérico |
+| 💾 **Installs** | Limpeza e padronização de formato |
+| 💰 **Price** | Conversão monetária para `DOUBLE` |
+| ⏰ **Last_Updated** | Conversão para formato `DATE` |
+| 🎯 **Reach_Band** | Criação de faixas por volume de instalações |
+| 💸 **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
+- 
+- (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
-### Transformações aplicadas (ETL em DuckDB via Google Colab)
-- **Padronização textual:** correção de capitalização (`Category`, `App`) e remoção de espaços com `TRIM()`.  
-- **Correção de tipos:** conversão de campos numéricos e remoção de símbolos (“+”, “,”, “$”).  
-- **Imputação de nulos:** `Rating` com valor “NaN” substituído pela **média da categoria**.  
+- | **Campo** | **Decisão Tomada** |
+|------------|--------------------|
+| 💬 **Sentiment** | Padronização para Title Case *(Positive, Negative, Neutral)* |
+| ⚖️ **Sentiment_Polarity / Sentiment_Subjectivity** | Arredondamento para 2 casas decimais |
+| 🧹 **Filtro Geral** | Exclusão de registros sem texto (`Translated_Review IS NOT NULL`) |
+
+
+### Transformações aplicadas (ETL)
+
+- **Padronização textual:** correção de capitalização (`Category`, `App`) e remoção de espaços com `TRIM()`. 
+- **Imputação de nulos:** `Rating` com valor “NaN” substituído pela **média da categoria**. 
+- **Correção de tipos:** Conversão de campos numéricos e remoção de símbolos especiais (+, ,, $)
+- Padronização do campo Sentiment (Positive, Neutral, Negative)
+- Arredondamento de métricas de polaridade e subjetividade
 - **Datas:** conversão do campo `"Last Updated"` para data e criação da coluna `Ano_Atualizacao`.  
 - **Novas métricas criadas:**
   - `Reach_Band` (baixo / médio / alto) — faixa de instalações.  
@@ -43,9 +69,19 @@ O trabalho incluiu todo o ciclo de dados: **extração, tratamento, modelagem e 
    -  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
 ---
 
+### Exportação de Dados
+- As tabelas finais foram exportadas do Google Colab para formato CSV compatível:
+- (Bases_tratadas/apps_tratados.csv)
+- (Bases_tratadas/reviews_tratados.csv)
+- 
+- Estes ficheiros alimentaram o modelo de dados no Power BI para visualização executiva.
+- 🔗📊 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
+
+---
+
 ## 📊 3. Estrutura do Dashboard
 
-O painel foi construído no **Power BI** e dividido em **três páginas principais**, cada uma com propósito claro de storytelling.
+O painel foi construído no **Power BI** e dividido em **três páginas principais.**
 
 ---
 
