@@ -67,7 +67,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Taxa de engajamento (reviews / installs)  
 
 📸 **Screenshot:**
-![Visão Geral](2_dashboard/screenshots/tela_1_visao_geral.png)
+![Visão Geral](Teste Groupo Q.pbix)
 
 ---
 
