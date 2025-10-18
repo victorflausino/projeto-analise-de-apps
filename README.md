@@ -4,6 +4,16 @@
 **Data:** Outubro/2025  
 **Ferramentas:** Google Colab · DuckDB · Power BI  
 
+
+---
+
+## 🧰  Tecnologias Utilizadas
+- **Python (Google Colab)** – para limpeza e tratamento com DuckDB  
+- **DuckDB SQL Engine** – processamento de grandes CSVs com alta performance  
+- **Power BI** – visualização, modelagem e storytelling de dados  
+- **Markdown + GitHub** – documentação e publicação do projeto  
+
+
 ---
 
 ## 🧠 1. Contexto do Desafio
