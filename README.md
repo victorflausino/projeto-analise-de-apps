@@ -149,7 +149,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
                     (reviews_tratados.csv.csv)
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
-🔗 [Link Dashboard]([[https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/)](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9))
+🔗 [Link Dashboard]([[[https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/)](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9))
 
 
 
@@ -158,6 +158,6 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 
 ## 📬 Contato
 📧 *victorflausino009@gmail.com*  
-🔗 [LinkedIn - Victor Flausino]([https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/))  
+🔗 [LinkedIn - Victor Flausino]([[https://www.linkedin.com/in/victor-flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/)](https://www.linkedin.com/in/victor-flausino-705b151b4/))  
 
 ---
