@@ -38,6 +38,10 @@ O trabalho incluiu todo o ciclo de dados: **extração, tratamento, modelagem e 
   - `Reach_Band` (baixo / médio / alto) — faixa de instalações.  
   - `Revenue_Potential` — potencial de receita (`Installs * Price` para apps pagos).  
 
+ 💻 **Notebook ETL**
+  - 📘 [Abrir no Google Colab](https://colab.research.google.com/drive/1abcdXYZ123)
+  - 📄 [Ver Notebook (.ipynb)](1_notebook_etl/etl_google_colab.ipynb)
+  - 📑 [Download em PDF](1_notebook_etl/Untitled2.ipynb%20-%20Colab.pdf)
 ---
 
 ## 📊 3. Estrutura do Dashboard
@@ -140,8 +144,9 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 ![Anális de Mercado](Nootbook_google_colab/Untitled2.ipynb - Colab.pdf)
 
 - 🎯 **Dados Tratados**
-![Anális de Mercado](Bases_tratadas/apps_tratados.csv)
-                    (Bases_tratadas/reviews_tratados.csv.csv)
+![Anális de Mercado]
+📄 [Ver Notebook (arquivo .ipynb)](1_notebook_etl/etl_google_colab.ipynb)
+
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
