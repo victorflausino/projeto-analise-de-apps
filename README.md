@@ -45,7 +45,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - 
 - (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
-- | **Campo** | **Decisão Tomada** |
+| **Campo** | **Decisão Tomada** |
 |------------|--------------------|
 | 💬 **Sentiment** | Padronização para Title Case *(Positive, Negative, Neutral)* |
 | ⚖️ **Sentiment_Polarity / Sentiment_Subjectivity** | Arredondamento para 2 casas decimais |
