@@ -62,7 +62,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Taxa de engajamento (reviews / installs)
 
 - 📸 **1°Página:**
-![Visão Geral](pagina1.png)
+![Visão Geral](Imagens/pagina1.png)
 
 ---
 
@@ -86,7 +86,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - **Games** possui grande volume, porém saturação de mercado.  
 
 - 📸 **2°Página:**
-![Análise de Mercado](pagina2.png))
+![Análise de Mercado](Imagens/pagina2.png)
 
 ---
 
@@ -104,7 +104,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Tabela de Sentimentos por Categoria  
 
 - 📸 **3°Página:**
-![Voz Usuários](pagina3.png))
+![Voz Usuários](Imagens/pagina3.png)
 
 ---
 
@@ -140,8 +140,8 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 ![Anális de Mercado](Nootbook_google_colab/Untitled2.ipynb - Colab.pdf)
 
 - 🎯 **Dados Tratados**
-![Anális de Mercado](apps_tratados.csv)
-                    (reviews_tratados.csv.csv)
+![Anális de Mercado](Bases_tratadas/apps_tratados.csv)
+                    (Bases_tratadas/reviews_tratados.csv.csv)
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
