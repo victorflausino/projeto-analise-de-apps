@@ -39,7 +39,9 @@ O trabalho incluiu todo o ciclo de dados: **extração, tratamento, modelagem e 
   - `Revenue_Potential` — potencial de receita (`Installs * Price` para apps pagos).  
 
  💻 **Notebook ETL**
-  - 📘 [Abrir no Google Colab](https://colab.research.google.com/drive/1abcdXYZ123)
+   - ![ETL](Notebook_google_colab.ipynb)
+   -  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
+
   - 📄 [Ver Notebook (.ipynb)](1_notebook_etl/etl_google_colab.ipynb)
   - 📑 [Download em PDF](1_notebook_etl/Untitled2.ipynb%20-%20Colab.pdf)
 ---
@@ -141,7 +143,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 /projeto-analise-de-apps
 
 - 💻 **Notebook ETL**
-![ETL](Sem título2.ipynb)
+![ETL](Notebook_google_colab.ipynb)
 
 - 🎯 **Dados Tratados**
 ![Basese tratadas]
