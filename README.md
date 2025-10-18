@@ -30,8 +30,8 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 ## ⚙️ 2. Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
-### (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
-- 
+- ### (googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
+ 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
 | 🏷️ **Category** | Padronização para Title Case |
@@ -43,7 +43,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 | 🎯 **Reach_Band** | Criação de faixas por volume de instalações |
 | 💸 **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
  
-### (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
+- ### (googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
