@@ -90,6 +90,8 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - **Education** tem excelente aceitação, mas baixo engajamento — alta oportunidade.  
 - **Games** possui grande volume, porém saturação de mercado.  
 
+- 📸 **2°Página:**
+![Análise de Mercado](pagina2.png))
 
 ---
 
@@ -106,8 +108,8 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 - Correlação entre NPS e Potencial de Crescimento  
 - Tabela de Sentimentos por Categoria  
 
-- 📸 **2°Página:**
-![Análise de Mercado](pagina2.png))
+- 📸 **3°Página:**
+![Voz Usuários](pagina3.png))
 
 ---
 
