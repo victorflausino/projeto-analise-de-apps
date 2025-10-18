@@ -3,7 +3,7 @@
 **Autor:** Victor Flausino  
 **Data:** Outubro/2025  
 
-** 🧰  Tecnologias Utilizadas
+ 🧰  Tecnologias Utilizadas
 - **Python (Google Colab)** – para limpeza e tratamento com DuckDB  
 - **DuckDB SQL Engine** – processamento de grandes CSVs com alta performance  
 - **Power BI** – visualização, modelagem e storytelling de dados  
