@@ -83,6 +83,13 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 
 O painel foi construído no **Power BI** e dividido em **três páginas principais.**
 
+# Análises Multinível (Categoria → Aplicativos)
+
+Em diversos visuais, especialmente:
+
+Nos visuais(gráficos) principais — Categoria e Apps por Installs, Taxa de Engajamento (Reviews/Installs) e Engajamento Total (Reviews) por Categoria e App — foi habilitada a função de “Desagregar Hierarquia” (Drill Down).
+Esse recurso permite navegar entre níveis de detalhe, tornando a análise dinâmica e exploratória.
+
 ---
 
 ### 🟦 Página 1 – Visão Geral
