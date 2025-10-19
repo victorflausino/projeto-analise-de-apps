@@ -83,7 +83,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 
 O painel foi construído no **Power BI** e dividido em **três páginas principais.**
 
-# Análises Multinível (Categoria → Aplicativos)
+**Análises Multinível (Categoria → Aplicativos)**
 
 Em diversos visuais, especialmente:
 
