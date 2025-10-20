@@ -164,17 +164,6 @@ Esse recurso permite navegar entre níveis de detalhe, tornando a análise dinâ
 | Engajamento | Usar Reviews/Installs | Mede vitalidade e interesse do usuário. |
 | Corte temporal | Analisar até 2018 | Mantém coerência com o último ano da base. |
 
----
-
-## 🧩 5. Conclusões e Recomendações
-
-- **Entertainment**: alta aceitação e crescimento consistente — manter investimentos.  
-- **Education**: alto rating e oportunidade de expansão via engajamento.  
-- **Games**: popularidade alta, mas indícios de saturação.  
-- **Social e Tools**: atualização frequente correlaciona com melhor percepção dos usuários.  
-
-🎯 **Conclusão executiva:**
-> Categorias que combinam **boa avaliação**, **alta atualização** e **engajamento crescente** representam as melhores oportunidades de investimento.
 
 ---
 
@@ -193,7 +182,6 @@ Esse recurso permite navegar entre níveis de detalhe, tornando a análise dinâ
 - 📊 **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
-
 
 
 ---
