@@ -1,4 +1,4 @@
-# 📊 Projeto de Análise de Aplicativos - Grupo Q
+# 📊 Projeto de Análise de Aplicativos
 
 **Candidato:** Victor Flausino  
 **Data:** Outubro/2025  
