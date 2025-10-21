@@ -65,8 +65,8 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - As tabelas finais foram exportadas do Google Colab para formato CSV compatível:
 - (Bases_tratadas/apps_tratados.csv)
 - (Bases_tratadas/reviews_tratados.csv)
-- 
-- Estes ficheiros alimentaram o modelo de dados no Power BI para visualização executiva.
+ 
+- Estes arquivos alimentaram o modelo de dados no Power BI.
 - 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 ---
@@ -79,8 +79,8 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 
 Em diversos visuais, especialmente:
 
-Nos visuais(gráficos) principais — Categoria e Apps por Installs, Taxa de Engajamento (Reviews/Installs) e Engajamento Total (Reviews) por Categoria e App — foi habilitada a função de “Desagregar Hierarquia” (Drill Down).
-Esse recurso permite navegar entre níveis de detalhe(Category -> Apps)
+Nos visuais(gráficos) principais — Categoria e Apps por Installs, Taxa de Engajamento (Reviews/Installs) e Engajamento Total (Reviews) por Categoria e App — foi habilitada a função de “Desagregar Hierarquia” **(Drill Down)**.
+Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 
 ---
 
