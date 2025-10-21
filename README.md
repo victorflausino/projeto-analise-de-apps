@@ -57,8 +57,8 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
   - `Revenue_Potential` — potencial de receita (`Installs * Price` para apps pagos).  
 
   **Notebook ETL**
-   - ![ETL](Notebook_google_colab.ipynb)
-   - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
+  🔗[ETL](Notebook_google_colab.ipynb)
+  🔗 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
 
 
 ### Exportação de Dados
@@ -67,7 +67,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - (Bases_tratadas/reviews_tratados.csv)
  
 - Estes arquivos alimentaram o modelo de dados no Power BI.
-- 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
+ 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 ---
 
@@ -173,14 +173,14 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 /projeto-analise-de-apps
 
 -  **Notebook ETL**
-![ETL](Notebook_google_colab.ipynb)
+🔗[ETL](Notebook_google_colab.ipynb)
 
 -  **Dados Tratados**
-  ![Basese tratadas_Apps](Bases_tratadas/apps_tratados.csv)
-  ![Basese tratadas_Reviews](Bases_tratadas/reviews_tratados.csv)
+  🔗[Basese tratadas_Apps](Bases_tratadas/apps_tratados.csv)
+  🔗[Basese tratadas_Reviews](Bases_tratadas/reviews_tratados.csv)
 
 -  **Dashboard**
-![Anális de Mercado](Teste Grupo Q.pbix)
+🔗[Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 
