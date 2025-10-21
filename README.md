@@ -69,6 +69,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - (Bases_tratadas/reviews_tratados.csv)
  
 - Estes arquivos alimentaram o modelo de dados no Power BI.
+ 
  🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 ---
@@ -102,6 +103,7 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 - Taxa de engajamento (reviews / installs)
 
 - 📸 **1°Página:**
+ 
 ![Visão Geral](Imagens/pagina1.png)
 
 ---
@@ -126,6 +128,7 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 - **Games** possui grande volume, porém saturação de mercado.  
 
 - 📸 **2°Página:**
+ 
 ![Análise de Mercado](Imagens/pagina2.png)
 
 ---
@@ -175,14 +178,19 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 /projeto-analise-de-apps
 
 -  **Notebook ETL**
+  
 🔗[ETL](Notebook_google_colab.ipynb)
 
 -  **Dados Tratados**
+  
   🔗[Basese tratadas_Apps](Bases_tratadas/apps_tratados.csv)
+
   🔗[Basese tratadas_Reviews](Bases_tratadas/reviews_tratados.csv)
 
 -  **Dashboard**
+  
 🔗[Anális de Mercado](Teste Grupo Q.pbix)
+
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 
