@@ -1,9 +1,9 @@
-# 📊 Projeto de Análise de Aplicativos
+# Projeto de Análise de Aplicativos - Grupo Q 
 
 **Candidato:** Victor Flausino  
 **Data:** Outubro/2025  
 
- 🧰  Tecnologias Utilizadas
+  Tecnologias Utilizadas
 - **Python (Google Colab)** – para limpeza e tratamento com DuckDB  
 - **DuckDB SQL Engine** – processamento de grandes CSVs com alta performance  
 - **Power BI** – visualização, modelagem e storytelling de dados  
@@ -11,7 +11,7 @@
 
 ---
 
-## 🧠 1. Contexto do Desafio
+## Contexto do Desafio
 
 Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018).
 
@@ -27,7 +27,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 
 ---
 
-## ⚙️ 2. Preparação e Modelagem dos Dados
+## Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
 - ### ![Base apps](googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
@@ -64,7 +64,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
   - `Reach_Band` (baixo / médio / alto) — faixa de instalações.  
   - `Revenue_Potential` — potencial de receita (`Installs * Price` para apps pagos).  
 
- 💻 **Notebook ETL**
+  **Notebook ETL**
    - ![ETL](Notebook_google_colab.ipynb)
    - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
 
@@ -75,11 +75,11 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - (Bases_tratadas/reviews_tratados.csv)
 - 
 - Estes ficheiros alimentaram o modelo de dados no Power BI para visualização executiva.
-- 🔗📊 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
+- 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 ---
 
-## 📊 3. Estrutura do Dashboard
+## Estrutura do Dashboard
 
 O painel foi construído no **Power BI** e dividido em **três páginas principais.**
 
@@ -154,40 +154,52 @@ Esse recurso permite navegar entre níveis de detalhe, tornando a análise dinâ
 
 ---
 
-## 💡 4. Decisões Analíticas Tomadas
+## Decisões Tomadas
 
-| Tema | Decisão | Justificativa |
-|------|----------|----------------|
-| Imputação de Rating | Substituir nulos pela média da categoria | Evita perda de dados e mantém coerência estatística. |
-| Normalização de Métricas | Escalar variáveis (0–1) | Permite comparação justa entre variáveis distintas. |
-| Filtro de Significância | Excluir apps com < 50 reviews | Reduz distorções causadas por amostras pequenas. |
-| Engajamento | Usar Reviews/Installs | Mede vitalidade e interesse do usuário. |
-| Corte temporal | Analisar até 2018 | Mantém coerência com o último ano da base. |
-
+| Tema | Decisão |
+|------|----------|
+| Imputação de Rating | Substituir nulos pela média da categoria.
+| Normalização de Métricas | Escalar variáveis (0–1).
+| Filtro de Significância | Excluir apps com < 50 review.
+| Engajamento | Usar Reviews/Installs.
+| Corte temporal | Analisar até 2018.
 
 ---
 
-## 📁 6. Estrutura do Projeto
+## Conclusões
+
+- **Entertainment**: alta aceitação e crescimento consistente.  
+- **Education**: alto rating e oportunidade de expansão via engajamento.  
+- **Games**: popularidade alta, mas indícios de saturação.  
+- **Social e Tools**: atualização frequente correlaciona com melhor percepção dos usuários. 
+
+> Categorias que combinam **boa avaliação**, **alta atualização** e **engajamento crescente** representam as melhores oportunidades de investimento.
+
+
+## Estrutura do Projeto
 
 /projeto-analise-de-apps
 
-- 💻 **Notebook ETL**
+-  **Notebook ETL**
 ![ETL](Notebook_google_colab.ipynb)
 
-- 🎯 **Dados Tratados**
+-  **Dados Tratados**
 ![Basese tratadas]
 📄 (Bases_tratadas/apps_tratados.csv)
 📄 (Bases_tratadas/reviews_tratados.csv)
 
-- 📊 **Dashboard**
+-  **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
 🔗 [Acessar Dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODljODBlYzItZmIzZi00OWI0LWFiMmYtYTM5Mjc4NmM5MDU5IiwidCI6IjZiZjI3ZWMxLTRkOWItNGFlNC1iMGYxLTNhNDU1NmI1YWE0ZCJ9)
 
 
 ---
+### Pergunta: Você utilizou IA para alguma parte do teste ? 
 
+Sim, utilizei ferramentas de IA Generativa,como um acelerador de produtividade,
+A IA foi crucial para transformar a análise técnica em uma comunicação de alto impacto.
 
-## 📬 Contato
+## Contato
 📧 *victorflausino009@gmail.com*  
 🔗 [LinkedIn - Victor Flausino](https://www.linkedin.com/in/victor-flausino-705b151b4/)
  
