@@ -173,7 +173,7 @@ Esse recurso permite navegar entre níveis de detalhe(Category -> Apps)
 /projeto-analise-de-apps
 
 -  **Notebook ETL**
-![ETL](Notebook_google_colab.ipynb)
+(Notebook_google_colab.ipynb)
 
 -  **Dados Tratados**
 ![Basese tratadas]
