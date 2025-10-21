@@ -159,6 +159,8 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 | Normalização de Métricas | Escalar variáveis (0–1).
 | Engajamento | Usar Reviews/Installs.
 | Corte temporal | Analisar até 2018.
+| Ajustes nas escalas | %Rating, %Installs, %Atualização
+| Aplicação de pesos | Índice = 0.4 * %Rating + 0.4 * %Installs + 0.2 * %Atualização
 
 ---
 
