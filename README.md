@@ -157,7 +157,6 @@ Esse recurso permite navegar entre níveis de detalhe.(ex:Category -> Apps).
 |------|----------|
 | Imputação de Rating | Substituir nulos pela média da categoria.
 | Normalização de Métricas | Escalar variáveis (0–1).
-| Filtro de Significância | Excluir apps com < 50 review.
 | Engajamento | Usar Reviews/Installs.
 | Corte temporal | Analisar até 2018.
 
