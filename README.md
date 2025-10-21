@@ -57,6 +57,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
   - `Revenue_Potential` — potencial de receita (`Installs * Price` para apps pagos).  
 
   **Notebook ETL**
+  
   🔗[ETL](Notebook_google_colab.ipynb)
   
   🔗 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
