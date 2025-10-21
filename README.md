@@ -11,11 +11,8 @@ Este projeto foi desenvolvido com base em dados públicos do Google Play Store (
 Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL, documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
 
 Ferramentas Utilizadas:
-
 Google Colab (Python/Pandas): Para exploração inicial, limpeza e transformação dos dados.
-
 DuckDB: Para aplicar transformações SQL em Python.
-
 Power BI: Para a construção do dashboard interativo e visualização dos insights..
 
 ---
@@ -23,7 +20,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 ## Preparação e Modelagem dos Dados
 
 ### Bases utilizadas
-- ### ![Base apps](googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
+ ### ![Base apps](googleplaystore.csv) — dados dos aplicativos (instalações, preço, categoria, rating etc.)
  
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
@@ -36,7 +33,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 |  **Reach_Band** | Criação de faixas por volume de instalações |
 |  **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
  
-- ### ![Base Reviews](googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
+ ### ![Base Reviews](googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
@@ -173,12 +170,11 @@ Esse recurso permite navegar entre níveis de detalhe(Category -> Apps)
 /projeto-analise-de-apps
 
 -  **Notebook ETL**
-!(Notebook_google_colab.ipynb)
+![ETL](Notebook_google_colab.ipynb)
 
 -  **Dados Tratados**
-![Basese tratadas]
-📄 (Bases_tratadas/apps_tratados.csv)
-📄 (Bases_tratadas/reviews_tratados.csv)
+  ![Basese tratadas_Apps](Bases_tratadas/apps_tratados.csv)
+  ![Basese tratadas_Reviews](Bases_tratadas/reviews_tratados.csv)
 
 -  **Dashboard**
 ![Anális de Mercado](Teste Grupo Q.pbix)
