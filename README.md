@@ -8,7 +8,7 @@
 
 Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018).
 
-Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL (Extração, Transformação e Carga) documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
+Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL, documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
 
 Ferramentas Utilizadas:
 
@@ -50,8 +50,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 - **Padronização textual:** correção de capitalização (`Category`, `App`) e remoção de espaços com `TRIM()`. 
 - **Imputação de nulos:** `Rating` com valor “NaN” substituído pela **média da categoria**. 
 - **Correção de tipos:** Conversão de campos numéricos e remoção de símbolos especiais (+, ,, $)
-- Padronização do campo Sentiment (Positive, Neutral, Negative)
-- Arredondamento de métricas de polaridade e subjetividade
+- **Padronização do campo Sentiment** (Positive, Neutral, Negative)
 - **Datas:** conversão do campo `"Last Updated"` para data e criação da coluna `Ano_Atualizacao`.  
 - **Novas métricas criadas:**
   - `Reach_Band` (baixo / médio / alto) — faixa de instalações.  
@@ -81,7 +80,7 @@ O painel foi construído no **Power BI** e dividido em **três páginas principa
 Em diversos visuais, especialmente:
 
 Nos visuais(gráficos) principais — Categoria e Apps por Installs, Taxa de Engajamento (Reviews/Installs) e Engajamento Total (Reviews) por Categoria e App — foi habilitada a função de “Desagregar Hierarquia” (Drill Down).
-Esse recurso permite navegar entre níveis de detalhe, tornando a análise dinâmica e exploratória.
+Esse recurso permite navegar entre níveis de detalhe(Category -> Apps)
 
 ---
 
