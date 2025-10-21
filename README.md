@@ -8,7 +8,7 @@
 
 Este projeto foi desenvolvido com base em dados públicos do Google Play Store (até agosto/2018).
 
-Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL, documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
+Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL, documentado no arquivo 🔗[Notebook colab](Notebook_google_colab.ipynb). 
 
 ### Ferramentas Utilizadas:
 
@@ -58,6 +58,7 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
 
   **Notebook ETL**
   🔗[ETL](Notebook_google_colab.ipynb)
+  
   🔗 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorflausino/projeto-analise-de-apps/blob/main/1_notebook_etl/etl_google_colab.ipynb)
 
 
