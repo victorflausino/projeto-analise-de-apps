@@ -3,13 +3,6 @@
 **Candidato:** Victor Flausino  
 **Data:** Outubro/2025  
 
-  Tecnologias Utilizadas
-- **Python (Google Colab)** – para limpeza e tratamento com DuckDB  
-- **DuckDB SQL Engine** – processamento de grandes CSVs com alta performance  
-- **Power BI** – visualização, modelagem e storytelling de dados  
-- **Markdown + GitHub** – documentação e publicação do projeto  
-
----
 
 ## Contexto do Desafio
 
@@ -34,22 +27,22 @@ Power BI: Para a construção do dashboard interativo e visualização dos insig
  
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
-| 🏷️ **Category** | Padronização para Title Case |
-| 📈 **Rating_Imputed** | Imputação de valores nulos com média da categoria |
-| 🔢 **Reviews** | Conversão para tipo numérico |
-| 💾 **Installs** | Limpeza e padronização de formato |
-| 💰 **Price** | Conversão monetária para `DOUBLE` |
-| ⏰ **Last_Updated** | Conversão para formato `DATE` |
-| 🎯 **Reach_Band** | Criação de faixas por volume de instalações |
-| 💸 **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
+|  **Category** | Padronização para Title Case |
+|  **Rating_Imputed** | Imputação de valores nulos com média da categoria |
+|  **Reviews** | Conversão para tipo numérico |
+|  **Installs** | Limpeza e padronização de formato |
+|  **Price** | Conversão monetária para `DOUBLE` |
+|  **Last_Updated** | Conversão para formato `DATE` |
+|  **Reach_Band** | Criação de faixas por volume de instalações |
+|  **Revenue_Potential** | Cálculo de potencial de receita (`Installs * Price`) |
  
 - ### ![Base Reviews](googleplaystore_user_reviews.csv) — avaliações e sentimentos de usuários.
 
 | **Campo** | **Decisão Tomada** |
 |------------|--------------------|
-| 💬 **Sentiment** | Padronização para Title Case *(Positive, Negative, Neutral)* |
-| ⚖️ **Sentiment_Polarity / Sentiment_Subjectivity** | Arredondamento para 2 casas decimais |
-| 🧹 **Filtro Geral** | Exclusão de registros sem texto (`Translated_Review IS NOT NULL`) |
+|  **Sentiment** | Padronização para Title Case *(Positive, Negative, Neutral)* |
+|  **Sentiment_Polarity / Sentiment_Subjectivity** | Arredondamento para 2 casas decimais |
+|  **Filtro Geral** | Exclusão de registros sem texto (`Translated_Review IS NOT NULL`) |
 
 
 ### Transformações aplicadas (ETL)
