@@ -10,7 +10,7 @@ Este projeto foi desenvolvido com base em dados públicos do Google Play Store (
 
 Para garantir a qualidade e a confiabilidade da análise, os dados brutos (googleplaystore.csv e googleplaystore_user_reviews.csv) passaram por um processo de ETL, documentado no arquivo ![Notebook colab](Notebook_google_colab.ipynb). 
 
-Ferramentas Utilizadas:
+### Ferramentas Utilizadas:
 
 Google Colab (Python/Pandas): Para exploração inicial, limpeza e transformação dos dados.
 
